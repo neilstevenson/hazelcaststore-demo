@@ -1,0 +1,51 @@
+:root {
+    --hazelcast-blue-dark: #0b2a35;
+    --hazelcast-blue-light: #2e7de1;
+    --hazelcast-orange: #ff5f00;
+}
+
+body {
+    background: var(--hazelcast-orange);
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--hazelcast-blue-dark);
+}
+h3 {
+    color: silver;
+}
+
+.whiteBox {
+    border: 4px solid DarkGray;
+    background-color: white;        
+    color: black;
+}
+
+.headerfooter {
+    text-align: center;
+    color: var(--hazelcast-blue-light);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 80%;
+}
+.headerfooterline {
+    color: var(--hazelcast-blue);
+}
+.legal {
+    text-align: center;
+    font-size: 40%;
+}
+
+.major_pane {
+    border-size: 5px;
+    border-style: solid;
+    border-color: var(--hazelcast-blue-dark);
+    padding: 5px 5px 5px 5px;
+}
+
+.minor_pane {
+    border-top: 2px dashed;
+    border-color: var(--hazelcast-blue-light);
+    overflow-y: scroll;
+    vertical-align: top;
+}

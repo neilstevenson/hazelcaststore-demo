@@ -1,0 +1,37 @@
+{{ define "header" }}
+ <head>
+  <link rel="icon" href="/static/images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+  <title>hazelcaststore-demo</title>
+ </head>
+ <body>
+        <div class="headerfooter">
+                <div class="whiteBox">
+                    <p>Go version {{.GoVersion}}</p>
+                </div>
+                <hr class="headerfooterline"/>
+        </div>
+ </body>
+{{ end }}
+// ------------------------------------------------------
+{{ define "footer" }}
+ <body>
+      <div class="headerfooter">
+                <hr class="headerfooterline"/>
+                <div class="legal">
+                    <p>Copyright (c) 2008-{{.Year}}, Hazelcast, Inc. All Rights Reserved.</p>
+                    <p/>
+                    <p>Licensed under the Apache License, Version 2.0 (the "License");</p>
+                    <p>you may not use this file except in compliance with the License.</p>
+                    <p>You may obtain a copy of the License at</p>
+                    <p><a href="http://www.apache.org/licenses/LICENSE-2.0">LICENSE-2.0</a></p>
+                    <p/>
+                    <p>Unless required by applicable law or agreed to in writing, software</p>
+                    <p>distributed under the License is distributed on an "AS IS" BASIS,</p>
+                    <p>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>
+                    <p>See the License for the specific language governing permissions and</p>
+                    <p>limitations under the License.</p>
+                </div>
+      </div>
+ </body>
+{{ end }}
